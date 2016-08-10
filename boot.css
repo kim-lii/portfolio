@@ -1,0 +1,59 @@
+.jumbotron {
+	background-image: url("http://images.fineartamerica.com/images-medium-large-5/purple-abstract-paint-pattern-christina-rollo.jpg");
+	background-size: cover;
+	height:93vh;
+
+}
+.jumbotron2 {
+	background-image: url("http://images.fineartamerica.com/images-medium-large-5/purple-abstract-paint-pattern-christina-rollo.jpg");
+	background-size: cover;
+	height: 240px
+
+}
+
+body {
+	background-color: gainsboro;
+	font-family: 'Sue Ellen Francisco', cursive;
+	
+}
+
+h1 {
+	color: #1E1E1E; 
+	font-family: 'Tangerine', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+h2 {
+	color: blueviolet;
+	font-size: 38px;
+}
+h3 {
+	color: darkmagenta;
+	font-size: 26px;
+}
+
+ul {
+	list-style-type: circle;
+	color: darkmagenta;
+	font-size: 22px;
+}
+
+p {
+	color: blueviolet;
+	font-size: 22px;
+}
+
+a {
+	font-size:22px;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://ani.cursors-4u.net/nature/nat-11/nat1039.cur), progress !important;} /* End http://www.cursors-4u.com */
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
