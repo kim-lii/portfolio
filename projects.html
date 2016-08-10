@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KL ProjPortfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href = "boot.css">
+  <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Tangerine" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="test">
+<div class="noselect">
+
+<div class="jumbotron2">
+
+<br>
+  <h1 style="font-size:100px">Projects</h1>
+  <center>
+  <p style="font-size:30px">Only the screenshots</p>
+  </center>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+    <center>
+      <h3>Just a slideshow of pictures</h3>
+      <div class="w3-content" style="max-width: 800px;position:relative">
+      <img class="mySlides" src="1.png" style="width:87%">
+      <img class="mySlides" src="2.png" style="width:101%">
+      <img class="mySlides" src="3.png" style="width:100%">
+      <img class="mySlides" src="screenshot.png" style="width:97%">
+      <br><br>
+    </div>
+    </center>
+
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1700);
+}
+</script>
+    </div>
+     <div class="col-sm-2">
+     <br><br><br><br><br><br><br><br><br><br>
+     <br><br><br><br><br><br><br><br><br><br>
+     <br><br><br><br><br><br><br><br><br>
+
+     <a href=bootstrap.html>
+    <img alt="Homepage" src="http://images.clipartpanda.com/clipart-house-house-md.png" width="60" height="63">
+    </a>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
